@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="An elegant digital invitation for the inauguration of Law Chambers of Shashwat Kumar & Associates." />
-  <title>Law Chambers of Shashwat Kumar &amp; Associates</title>
+  <title>Law Chambers of Shashwat Kumar & Associates</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -560,7 +560,7 @@
     <section class="section">
       <div class="wrap">
         <div class="address-card">
-          <div class="address-icon">📍</div>
+          <div class="address-icon">ðŸ“</div>
           <h3>Law Chambers of Shashwat Kumar &amp; Associates</h3>
           <p>RWA Society</p>
           <p>Block A-264</p>
@@ -569,7 +569,7 @@
           <p>Noida - 201316</p>
           <div class="label">Landmark</div>
           <p>Raghav Global School</p>
-          <a class="directions-btn" href="https://www.google.com/maps/dir/?api=1&destination=RWA+Society%2C+Block+A-264%2C+Ground+Floor%2C+Sector+122+Residential+Society%2C+Noida+-+201316" target="_blank" rel="noopener noreferrer">📍 Get Directions</a>
+          <a class="directions-btn" href="https://www.google.com/maps/search/?api=1&query=RWA+Society+Block+A-264+Ground+Floor+Sector+122+Residential+Society+Noida+201316" target="_blank" rel="noopener noreferrer">ðŸ“ Open Location</a>
         </div>
       </div>
     </section>
@@ -600,11 +600,7 @@
     const mistOverlay = document.getElementById('mistOverlay');
     const photoFrame = document.querySelector('.photo-frame');
     const photoImage = document.getElementById('photoImage');
-    // Inserted screenshot from provided PDF (embedded as data URL)
-    if (photoImage) {
-      photoImage.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABPgAAAOhCAIAAADkA4x8AAAQAElEQVR4nOzdf2ge94Hn8ecOgwo5eEJ0yJCDCAes4oVosyEONVjFYatbs3U2PqKmudTbQHypSXWut24vTVeJybpxN+t23aqOzjg9L+eg6zqpsrWpe7jnBoeTwSYuTk6BE1XARoEza3E+qmMDEfiPnXn0w5Jj63kUyY37yev1j388j55nZp7vDPPWPDOz7LbbbqsAAABAin9ZAQAAgCBCFwAAgChCFwAAgChCFwAAgChCFwAAgChCFwAAgChCFwAAgChCFwAAgChCFwAAgChCFwAAgChCFwAAgChCFwAAgChCFwAAgChCFwAAgChCFwAAgChCFwAAgChCFwAAgChCFwAAgChCFwAAgChCFwAAgChCFwAAgChCFwAAgCi/f6Hb/crwpUuXLpzs7ah8MnX0nrxQLIHhV7orfDI9eWj4YrEOnOpdV7kp3fAh+onfCAAAUMdNE7pPHj5X7Lqe7q33vO7O1S3FH02r7uuq98zyFc8dvv6+du+pht7xZtN136qm4o+W1Z1XzVr3kXIRTjt3+MnKDVZ3CXNDdK+/r2VZsQ603fdQvafuLcf4qb2V363rDtE6ln4jwKJ91CHU/sT+UyMXrmyQGtzSTo6Bma3YkbojyFYIALi2xkO3loVX+x3U1FX6jp8ZK/4Yf/v4QCVMg0t44M3hiUplYuzk8b4KS+3h3hMjF4Zfu6l3m/uOvTl2uVgHho6/VrkpzTtEl2AJ39wbgY99CN0MY/jRQ6+80NXW3FQBAPiYLKv8vun74qpPduANblt7+7ZrPdD34J2TS6Y4tLtzbYWPorm1tdg7v8lXi32PrNpXuYldd4iWlmIJ39QbgY99CN0EY7jnsc8Wx9zHf31gx7ee6n97IT+5b+Odk2O7OLT7vG+mAwAf3QL3ht7tb/7Mtgo3jiUM/J5rqRbHckd+/idP9VcAAD4eS3mObutDOw+dPnfhYu0rtxcvnDt9aOf6K4/WziA91Vtp7freseH3Jp9z7sT3ulpnvcL4xZHO5w5Nndl18cLZIzs7rzw495u91zrjq/2J/SfemZmAnR3Vqyew6/lDV04bu7ip7arHV3TtPHL23NSPnxt+ff/mu2e9/enyVLXeuzfvPzn9FiOn9j/eWvmdWfDZax8y7ww2ot4Sbt+878Tw9FReODd8Yt/m1gVNQLF4Xx8+NzOETi5kCmvL59xr3V3PHz577tK1htA8Q7R7auE+X85Tde3OWUv6VMOncZdDtPxc7t5+8PTUUrjw1qHtd8+dwZnxc+HcqVd2dq2Y8xKTS3hmCZ7at7l99hucvlRnwool/MqpczOnRj589RivOwHXs/ON4gfOHlz3oQfWHTxbPPLGzvLv8w3RhpfwB+Pt3zx4auTSR9gILMFKevfm3iNXFuA1xvB1NTSD5RSWJ5S2b3/51NQ4f+/soW9OfciTp9nPOSG2dorsnCV53XWkwSXcemUFKV75nRP7n2ifMx91h9AiXTX9xQQscCvawHZ+nhlsYCUFACIsXeiu7z20t7tzZbVp8iDxsqbqys7uvzvVu372k25t/2WxW7O65ZbJ51TbH//O3zx65eFPtf3H/Vs7p87sWtbUurZ7f8NnmrU+e+zwC13tt89MwNVP2PTSz370ZOeV08aufkJn79//qHtta3Xqx6std3ftfvVw95wMaH3gH3Z3rZp+i+a2ruf2b6/8vmhkBudTbwm3dh85vPvh9pbp/c6makv7w7tPHOlubXQCug+/urvr7pbqzBBa1dXzVwvr+eoffeNHT3a0VqdeoRhCf/PS9BcgGxqii/Wp5gdO/feeDSunlkLTHZ09P9w9tQRW1GZwZvw0Vds+1/2jv++9EnJPHp5cwlP/LJ7wcM/OBZwGv2n/P/yo+3Nt1ZlTI6/6jOpOwPUN/Z+xYv2trvrQA6uqtx [truncated]";
-    }
-
+    // The office photo is loaded directly from office-photo.jpeg.
     function revealContent() {
       openingIllustration.classList.add('glow');
       setTimeout(() => {
@@ -686,3 +682,4 @@
   </script>
 </body>
 </html>
+
